@@ -5,7 +5,7 @@ const scheduleOrderData = require('./scheduleData').scheduleOrderData;
 //acces API
 const shopify = new Shopify({
     shopName: 'nowatest',
-    accessToken: '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'
+    accessToken: 'shpat_'
 });
 
 // reccuperation infos shopify dans un tableau pour les inscrires dans la DB
